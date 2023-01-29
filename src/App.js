@@ -1,17 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header';
-import Emoji from './Emoji';
-import MessageBubble from './MessageBubble';
-import SendMessage from './SendMessage';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./Header";
+import Emoji from "./Emoji";
+import MessageBubble from "./MessageBubble";
+import MessageFromBubble from "./MessageFrombubble";
+import SendMessage from "./SendMessage";
+import MessageToBubble from "./MessageToBubble";
 function App() {
   return (
-    <div class="dark:bg-gray-800">
+    <span class="dark:bg-gray-800">
       <Header></Header>
       <Emoji></Emoji>
-      <MessageBubble></MessageBubble>
+
+      
+      <MessageFromBubble></MessageFromBubble>
+      <MessageToBubble></MessageToBubble>
       <SendMessage></SendMessage>
-    </div>
+    </span>
   );
 }
 

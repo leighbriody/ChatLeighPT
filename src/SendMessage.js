@@ -3,9 +3,9 @@ import { IoMdSend } from "react-icons/io";
 export default function SendMessage() {
   return (
     <section className="hero container max-w-screen-lg mx-auto pb-10 flex justify-center mg-0 p-0">
-      <div className="w-full mt-16 md:mt-0 md:w-2/5 bg-gray-800">
+      <div className="w-full mt-16 md:mt-0  bg-gray-800">
         <div
-          className="bg-gray-800 relative z-10 h-auto p-8 py-10 overflow-hidden px-7"
+          className="bg-gray-800 relative z-10 h-auto p-8 py-10 overflow-hidden "
           data-rounded="rounded-lg"
           data-rounded-max="rounded-full"
         >
